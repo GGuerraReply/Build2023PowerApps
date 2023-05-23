@@ -9,7 +9,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: <SOLUTION_NAME, i.e, PowerAppsTools_lic>
+        default: PowerAppsTools_lic
        #Do Not change these values
       solution_exported_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -25,9 +25,9 @@ on:
        default: solutions/
 env:
 #edit your values here
-  ENVIRONMENT_URL: '<ENVIRONMENT_URL>'  # Dev Environment
-  CLIENT_ID: '<CLIENT_ID_FROM_THE_LAB_INSTRUCTIONS>'
-  TENANT_ID: '<TENANT_ID_FROM_THE_LAB_INSTRUCTIONS>'
+  ENVIRONMENT_URL: 'https://org793c75f9.crm.dynamics.com'  # Dev Environment
+  CLIENT_ID: 'c4f9845e-0c18-47a0-8c0a-dbaf0805db8f'
+  TENANT_ID: 'lV5se54UVqnGTLBfFQtcEHjAhoGZBYap'
 permissions:
   contents: write
 jobs:

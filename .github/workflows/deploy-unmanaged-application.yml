@@ -6,7 +6,7 @@ on:
       solution_name:
         description: "name of the Solution"
         required: true
-        default: <SOLUTION_NAME, i.e, PowerAppsTools_lic>
+        default: PowerAppsTools_lic
       # environment_id:
       #   description: "GUID of your Dataverse environment"
       #   required: true
@@ -14,7 +14,7 @@ on:
       environment_url:
         description: "http endpoint of your Dataverse environment"
         required: true
-        default: "<ENVIRONMENT_URL>"  # Test Environment URL
+        default: "https://orged15bcc0.crm.dynamics.com"  # Test Environment URL
       #solution_source_folder:
        # description: "Location of the solution files"
         #requried: true
@@ -25,8 +25,8 @@ on:
         #default: out/stage
 env:
 #edit your values here
-  CLIENT_ID: '<CLIENT_ID_FROM_THE_LAB_INSTRUCTIONS>'
-  TENANT_ID: '<TENANT_ID_FROM_THE_LAB_INSTRUCTIONS>'
+  CLIENT_ID: 'c4f9845e-0c18-47a0-8c0a-dbaf0805db8f'
+  TENANT_ID: 'ffd09dde-3ff4-494d-9a02-3e6b9de29e35'
 
 permissions:
   contents: write
